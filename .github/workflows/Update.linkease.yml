@@ -39,7 +39,7 @@ jobs:
         
          
         git clone https://github.com/Jaykwok2999/istoreos-ipk.git ./pass
-        mv ./pass/* ./linkease
+        mv ./pass/linkease/* ./
         rm -rf ./pass
         
         
