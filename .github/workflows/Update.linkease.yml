@@ -33,13 +33,13 @@ jobs:
         
     - name: Update
       run: |
-        rm -rf ./linkease
+        rm -rf ./*
         
         
         
          
         git clone https://github.com/Jaykwok2999/istoreos-ipk.git ./pass
-        mv ./pass/linkease/* ./linkease
+        mv ./pass/linkease ./*
         rm -rf ./pass
         
         
